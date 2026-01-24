@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { ArrowDown, MapPin, Database, Award } from 'lucide-react';
+import { ArrowDown } from 'lucide-react';
 
 const Hero = () => {
   return (
