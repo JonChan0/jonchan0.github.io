@@ -3,8 +3,8 @@ import { ExternalLink, FileImage, ChevronLeft, ChevronRight } from 'lucide-react
 
 const posters = [
   {
-    id: "POSTER_D5_ASHG",
-    title: "ASHG Poster - D5",
+    id: "ASHG_2025",
+    title: "American Society for Human Genetics",
     description: "Leveraged statistical genetics to prioritise risk factors and biomarkers for hypertrophic cardiomyopathy.",
     image: "/docs/ASHG_Poster_D5_thumb.png",
     link: "/docs/ASHG_Poster_D5.png",
@@ -12,22 +12,22 @@ const posters = [
     size: "4.2MB"
   },
   {
-    id: "POSTER_D5_GEL",
-    title: "GeL Poster - D5",
-    description: "Integrated common and rare genetics for risk prediction in hypertrophic cardiomyopathy in the UK Biobank and Hypertrophic Cardiomyopathy Registry.",
-    image: "/docs/GeL_Poster_D5_thumb.png",
-    link: "/docs/GeL_Poster_D5.png",
-    orientation: 'portrait',
-    size: "15.9MB"
-  },
-  {
-    id: "POSTER_D3_ISHR",
-    title: "ISHR Poster - D3",
+    id: "ISHR_2025",
+    title: "International Society for Heart Research",
     description: "Identified associations between rare sarcomeric mutations and endophenotypes of worse disease severity in hypertrophic cardiomyopathy. ",
     image: "/docs/ISHR_Poster_D3_thumb.png",
     link: "/docs/ISHR_Poster_D3.png",
     orientation: 'portrait',
     size: "27.9MB"
+  },
+  {
+    id: "GeL_2024",
+    title: "Genomics England",
+    description: "Integrated common and rare genetics for risk prediction in hypertrophic cardiomyopathy in the UK Biobank and Hypertrophic Cardiomyopathy Registry.",
+    image: "/docs/GeL_Poster_D5_thumb.png",
+    link: "/docs/GeL_Poster_D5.png",
+    orientation: 'portrait',
+    size: "15.9MB"
   }
 ];
 
