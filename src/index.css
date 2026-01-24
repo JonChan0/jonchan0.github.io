@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', sans-serif;
+  --font-mono: 'Space Mono', 'JetBrains Mono', monospace;
+  --font-display: 'Inter', sans-serif;
+  
+  --color-bg: #e6e6e6;
+  --color-surface: #ffffff;
+  --color-text: #000000;
+  --color-accent: #ff5100;
+  --color-border: #000000;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+  background: var(--color-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #000000;
+  border: 3px solid var(--color-bg);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-accent);
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply antialiased text-black bg-[var(--color-bg)];
+  font-family: var(--font-sans);
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: var(--font-display);
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+}
+
+.font-mono {
+  font-family: var(--font-mono);
+}
+
+.section-container {
+  @apply min-h-screen h-[100dvh] w-full snap-start flex flex-col relative overflow-hidden;
+}
+
+/* Utilities for Industrial Look */
+.border-thick {
+  border: 2px solid black;
+}
+
+.grid-bg {
+  background-image:
+    linear-gradient(to right, #ccc 1px, transparent 1px),
+    linear-gradient(to bottom, #ccc 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+.dot-grid {
+  background-image: radial-gradient(#000 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+.btn-industrial {
+  @apply px-6 py-3 bg-black text-white font-mono uppercase text-sm font-bold hover:bg-[var(--color-accent)] transition-colors duration-0;
+}
+
+.panel-industrial {
+  @apply bg-white border-2 border-black p-6 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)];
+}
