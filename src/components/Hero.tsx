@@ -31,13 +31,8 @@ const Hero = () => {
               <span className="text-sm font-mono text-slate-500 uppercase tracking-widest">Module: Intro</span>
             </div>
 
-            <h1 className="text-6xl md:text-8xl font-bold tracking-tighter leading-[0.9] mb-8 uppercase">
-              Population<br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-slate-800 to-slate-500 stroke-black text-stroke">-omics</span>
-            </h1>
-
-            <div className="border-l-4 border-[var(--color-accent)] pl-6 py-2 bg-white/50 backdrop-blur-sm mb-10 max-w-xl">
-              <p className="font-mono text-sm md:text-base leading-relaxed text-slate-800">
+            <div className="border-l-[6px] border-[var(--color-accent)] pl-8 py-4 bg-white/50 backdrop-blur-sm mb-10 max-w-2xl">
+              <p className="font-mono text-base md:text-lg leading-relaxed text-slate-800">
                 [OBJECTIVE]: Advance therapeutic development via population-scale genetics and multi-omics.<br />
                 [TARGET]: Drug discovery & patient stratification.<br />
                 [STATUS]: Active / Open to Industry.

@@ -12,6 +12,15 @@ const posters = [
     size: "4.2MB"
   },
   {
+    id: "BSCR_2025",
+    title: "British Society for Cardiovascular Research",
+    description: "Identified known and novel plasma protein biomarkers with utility for risk and severity prediction in hypertrophic cardiomyopathy.",
+    image: "/docs/BSCR_Poster_D2_thumb.png",
+    link: "/docs/BSCR_Poster_D2.png",
+    orientation: 'landscape',
+    size: "20.2MB"
+  },
+  {
     id: "ISHR_2025",
     title: "International Society for Heart Research",
     description: "Identified associations between rare sarcomeric mutations and endophenotypes of worse disease severity in hypertrophic cardiomyopathy. ",
