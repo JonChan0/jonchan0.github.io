@@ -30,7 +30,7 @@ function App() {
             </h2>
 
             <p className="text-xl font-mono text-slate-700 mb-12 max-w-2xl mx-auto leading-relaxed border-l-2 border-[var(--color-accent)] pl-6 text-center">
-              Actively seeking opportunities in pharma/biotech. <br />
+              Building... <br />
             </p>
 
             <div className="flex flex-col sm:flex-row justify-center gap-6">
