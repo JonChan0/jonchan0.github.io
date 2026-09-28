@@ -55,7 +55,7 @@ const About = () => {
 
               <h3 className="font-mono text-xs uppercase tracking-widest text-slate-500 mb-4">Mission Statement</h3>
               <p className="text-xl md:text-2xl font-bold leading-tight mb-6">
-                Translating Human Genetic Insights into <span className="underline decoration-4 decoration-[var(--color-accent)]">Industry Impact</span>.
+                Translating Human Genetic Insights into <span className="underline decoration-4 decoration-[var(--color-accent)]">Real-World Impact</span>.
               </p>
 
               <p className="text-sm font-mono text-slate-700 mb-6 leading-relaxed">
