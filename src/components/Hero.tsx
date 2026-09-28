@@ -33,9 +33,8 @@ const Hero = () => {
 
             <div className="border-l-[6px] border-[var(--color-accent)] pl-8 py-4 bg-white/50 backdrop-blur-sm mb-10 max-w-2xl">
               <p className="font-mono text-base md:text-lg leading-relaxed text-slate-800">
-                [OBJECTIVE]: Advance therapeutic development via population-scale genetics and multi-omics.<br />
-                [TARGET]: Drug discovery & patient stratification.<br />
-                [STATUS]: Active / Open to Industry.
+                [OBJECTIVE]: Advance therapeutic development via population-scale genetics and multi-omics.
+                [STATUS]: Building...
               </p>
             </div>
           </motion.div>
